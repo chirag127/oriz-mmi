@@ -1,0 +1,54 @@
+---
+// Semicircular fear/greed gauge. Arc sweeps 180° left→right:
+// red (fear) → coral → lime → teal-green (greed). Needle points at `value`.
+interface Props {
+  value: number; // 0..100
+  zone: string;
+}
+const { value, zone } = Astro.props;
+const v = Math.max(0, Math.min(100, value));
+
+const R = 150;
+const CX = 170;
+const CY = 170;
+const STROKE = 26;
+
+// value 0..100 -> angle 180°(left) .. 0°(right)
+const angle = (val: number) => Math.PI * (1 - val / 100);
+const pt = (val: number, r = R) => ({
+  x: CX + r * Math.cos(angle(val)),
+  y: CY - r * Math.sin(angle(val)),
+});
+
+// coloured segments (matches zone thresholds 30/50/70)
+const SEGMENTS = [
+  { from: 0, to: 30, color: '#ff4d5e' },
+  { from: 30, to: 50, color: '#ff8a5c' },
+  { from: 50, to: 70, color: '#a3e635' },
+  { from: 70, to: 100, color: '#22e0a1' },
+];
+const arc = (from: number, to: number) => {
+  const a = pt(from);
+  const b = pt(to);
+  const large = to - from > 50 ? 1 : 0;
+  // sweep=1 draws the upper arc left→right in SVG y-down space
+  return `M ${a.x.toFixed(2)} ${a.y.toFixed(2)} A ${R} ${R} 0 ${large} 1 ${b.x.toFixed(2)} ${b.y.toFixed(2)}`;
+};
+
+const needle = pt(v, R - 14);
+const zoneColor =
+  v < 30 ? '#ff4d5e' : v < 50 ? '#ff8a5c' : v < 70 ? '#a3e635' : '#22e0a1';
+---
+
+<svg viewBox="0 0 340 210" width="100%" style={`max-width:420px;color:${zoneColor}`} role="img" aria-label={`MMI ${v.toFixed(1)}, ${zone}`}>
+  {SEGMENTS.map((s) => (
+    <path d={arc(s.from, s.to)} fill="none" stroke={s.color} stroke-width={STROKE} stroke-linecap="butt" opacity="0.9" />
+  ))}
+  {/* tick labels */}
+  <text x="20" y="200" fill="#8a8bb0" font-size="11" font-family="'JetBrains Mono',monospace">0 · Fear</text>
+  <text x="255" y="200" fill="#8a8bb0" font-size="11" font-family="'JetBrains Mono',monospace">Greed · 100</text>
+  {/* needle */}
+  <line x1={CX} y1={CY} x2={needle.x.toFixed(2)} y2={needle.y.toFixed(2)} stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+  <circle cx={CX} cy={CY} r="9" fill="#e8e6f5" />
+  <circle cx={CX} cy={CY} r="4" fill={zoneColor} />
+</svg>

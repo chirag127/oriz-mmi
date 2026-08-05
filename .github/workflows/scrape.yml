@@ -1,0 +1,71 @@
+name: mmi-watch
+
+# Hourly Tickertape MMI read -> classify -> commentary -> notify -> commit data
+# -> the committed JSON drives the CF Pages build. GitHub throttles high-freq
+# cron, so we ask hourly + self-loop inside the run + allow manual triggers.
+
+on:
+  schedule:
+    - cron: '13 * * * *' # hourly at :13 (off the :00 stampede)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [tick]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mmi-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: mmi-tools-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
+          restore-keys: |
+            mmi-tools-${{ runner.os }}-
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[browser,dev]"
+
+      - name: Install Playwright Chromium (JS fallback)
+        run: python -m playwright install chromium --with-deps
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Read MMI (self-loop ~3x to approximate sub-hourly)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_BASE_URL: ${{ secrets.NTFY_BASE_URL }}
+          NTFY_USER: ${{ secrets.NTFY_USER }}
+          NTFY_PASSWORD: ${{ secrets.NTFY_PASSWORD }}
+        run: |
+          python -m mmi_watch --data data --iterations 3 --interval 60 -v
+
+      - name: Commit data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          git diff --cached --quiet || git commit -m "data: MMI read $(date -u +'%F %H:%MZ')"
+          git push

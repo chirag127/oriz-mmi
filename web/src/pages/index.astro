@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import Gauge from '../components/Gauge.astro';
+import Sparkline from '../components/Sparkline.astro';
+import { loadReading, loadHistory } from '../lib/data';
+
+const r = loadReading();
+const hist = loadHistory();
+const updated = r.ts ? new Date(r.ts).toUTCString() : 'awaiting first run';
+const zoneColor =
+  r.value < 30 ? 'var(--fear)' : r.value < 50 ? 'var(--fear-soft)' : r.value < 70 ? 'var(--greed-soft)' : 'var(--greed)';
+const fmt = (n: number | null) => (n === null ? '—' : Intl.NumberFormat('en-IN').format(n));
+---
+
+<Base>
+  <header class="top wrap">
+    <span class="kicker">Tickertape · India</span>
+    <h1>Market Mood Index</h1>
+    <p class="sub">The 0–100 fear &amp; greed gauge for Indian equities. Read hourly, straight from the source.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="dial-card">
+      <Gauge value={r.value} zone={r.zone} />
+      <div class="dial-value" style={`color:${zoneColor}`}>{r.value.toFixed(1)}</div>
+      <div class="dial-zone" style={`color:${zoneColor}`}>{r.zone}</div>
+      {r.summary && <p class="dial-take">{r.summary}</p>}
+      <div class="factors">
+        {r.nifty !== null && <span>Nifty <b>{fmt(r.nifty)}</b></span>}
+        {r.vix !== null && <span>VIX chg <b>{r.vix}</b></span>}
+        {r.fii !== null && <span>FII <b>{fmt(r.fii)}</b></span>}
+        {r.raw !== null && <span>raw <b>{r.raw}</b></span>}
+      </div>
+    </section>
+
+    {r.comparisons.length > 0 && (
+      <section class="grid">
+        {r.comparisons.map((c) => (
+          <div class="cell">
+            <div class="lab">{c.label}</div>
+            <div class="val">{c.value?.toFixed(1) ?? '—'}</div>
+            <div class="zn">{c.zone}</div>
+          </div>
+        ))}
+      </section>
+    )}
+
+    <section class="spark-card">
+      <h2>Intraday history</h2>
+      <Sparkline points={hist} />
+    </section>
+
+    <p class="updated">Source: {r.source || '—'} · updated {updated}</p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      Not investment advice. MMI is a sentiment gauge, not a trade signal.
+      Data from Tickertape · <a href="https://oriz.in">oriz.in</a>
+    </div>
+  </footer>
+</Base>

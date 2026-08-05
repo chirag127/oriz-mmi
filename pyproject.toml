@@ -1,0 +1,27 @@
+[project]
+name = "mmi-watch"
+version = "0.1.0"
+description = "Hourly Tickertape Market Mood Index (MMI) tracker + notifier"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28",
+    "g4f>=0.3",
+]
+
+[project.optional-dependencies]
+browser = ["playwright>=1.50"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+mmi-watch = "mmi_watch.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

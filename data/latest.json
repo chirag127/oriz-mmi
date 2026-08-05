@@ -1,0 +1,38 @@
+{
+  "source": "tickertape",
+  "value": 72.95,
+  "zone": "Extreme Greed",
+  "ts": "2026-08-05T04:39:28+00:00",
+  "source_date": "2026-08-05T04:39:00.101Z",
+  "raw": 70.45,
+  "nifty": 24592.2,
+  "vix": -11.91,
+  "fii": -153773,
+  "comparisons": [
+    {
+      "label": "Yesterday",
+      "value": 73.81,
+      "zone": "Extreme Greed",
+      "date": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "label": "Last week",
+      "value": 55.89,
+      "zone": "Greed",
+      "date": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "label": "Last month",
+      "value": 64.99,
+      "zone": "Greed",
+      "date": "2026-07-06T00:00:00.000Z"
+    },
+    {
+      "label": "Last year",
+      "value": 24.25,
+      "zone": "Extreme Fear",
+      "date": "2025-07-28T00:00:00.000Z"
+    }
+  ],
+  "summary": ""
+}
