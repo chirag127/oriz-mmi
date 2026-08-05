@@ -6,7 +6,7 @@ name: mmi-watch
 
 on:
   schedule:
-    - cron: '13 * * * *' # hourly at :13 (off the :00 stampede)
+    - cron: '30 7 * * *' # once daily at 07:30 UTC = 1:00 PM IST (user request)
   workflow_dispatch:
   repository_dispatch:
     types: [tick]
@@ -51,7 +51,7 @@ jobs:
       - name: Run tests
         run: python -m pytest -q
 
-      - name: Read MMI (self-loop ~3x to approximate sub-hourly)
+      - name: Read MMI (once daily at 1pm IST)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
