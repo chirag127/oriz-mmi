@@ -19,6 +19,7 @@ from ..util import zone_emoji
 log = logging.getLogger("mmi_watch")
 
 SITE = "https://mmi.oriz.in"
+TICKERTAPE = "https://www.tickertape.in/market-mood-index"
 
 
 def _esc(s: object) -> str:
@@ -58,6 +59,7 @@ def format_message(reading: MmiReading, source: str) -> str:
     if reading.summary:
         lines.append(_esc(reading.summary))
     lines.append(f'→ {SITE}')
+    lines.append(f'source: <a href="{TICKERTAPE}">Tickertape MMI</a>')
     return "\n".join(lines)
 
 
@@ -70,6 +72,7 @@ def format_ntfy(reading: MmiReading, source: str) -> str:
     if reading.summary:
         lines.append(reading.summary)
     lines.append(SITE)
+    lines.append(f"source: {TICKERTAPE}")
     return "\n".join(lines)
 
 
