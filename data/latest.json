@@ -1,12 +1,12 @@
 {
   "source": "tickertape",
-  "value": 83.41,
+  "value": 83.14,
   "zone": "Extreme Greed",
-  "ts": "2026-08-07T06:18:15+00:00",
-  "source_date": "2026-08-07T06:18:00.078Z",
-  "raw": 84.28,
-  "nifty": 24576.85,
-  "vix": -12.43,
+  "ts": "2026-08-07T08:37:12+00:00",
+  "source_date": "2026-08-07T08:36:00.027Z",
+  "raw": 83.73,
+  "nifty": 24553.7,
+  "vix": -12.36,
   "fii": -145118,
   "comparisons": [
     {
@@ -34,5 +34,5 @@
       "date": "2025-07-30T00:00:00.000Z"
     }
   ],
-  "summary": "The Tickertape Market Mood Index at 83.4 indicates a strong prevailing sentiment of extreme greed in the Indian market."
+  "summary": "The Indian market's Tickertape Market Mood Index at 83.1 indicates extreme greed, reflecting heightened investor optimism compared to recent historical levels."
 }
