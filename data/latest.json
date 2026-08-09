@@ -2,7 +2,7 @@
   "source": "tickertape",
   "value": 81.93,
   "zone": "Extreme Greed",
-  "ts": "2026-08-08T08:08:54+00:00",
+  "ts": "2026-08-09T08:10:39+00:00",
   "source_date": "2026-08-07T14:20:00.224Z",
   "raw": 81.33,
   "nifty": 24570.65,
@@ -34,5 +34,5 @@
       "date": "2025-07-30T00:00:00.000Z"
     }
   ],
-  "summary": "The Tickertape Market Mood Index at 81.9 indicates a shift to extreme greed, reflecting increased investor optimism compared to previous periods."
+  "summary": "MMI 81.9 — Extreme Greed. up 4.0 vs yesterday. froth risk — a correction may be due, trim/hedge."
 }
