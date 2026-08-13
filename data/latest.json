@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 72.09,
-  "zone": "Extreme Greed",
-  "ts": "2026-08-12T08:50:12+00:00",
-  "source_date": "2026-08-12T08:48:00.130Z",
-  "raw": 68.57,
-  "nifty": 24288.05,
-  "vix": -11.94,
-  "fii": -156131,
+  "value": 66.09,
+  "zone": "Greed",
+  "ts": "2026-08-13T08:53:30+00:00",
+  "source_date": "2026-08-13T08:51:00.052Z",
+  "raw": 62.19,
+  "nifty": 24361.1,
+  "vix": -11.45,
+  "fii": -165169,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 78.52,
+      "value": 72.8,
       "zone": "Extreme Greed",
-      "date": "2026-08-11T00:00:00.000Z"
+      "date": "2026-08-12T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 74.42,
+      "value": 77.97,
       "zone": "Extreme Greed",
-      "date": "2026-08-05T00:00:00.000Z"
+      "date": "2026-08-06T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 66.25,
+      "value": 60.3,
       "zone": "Greed",
-      "date": "2026-07-13T00:00:00.000Z"
+      "date": "2026-07-14T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 29.9,
+      "value": 29.92,
       "zone": "Extreme Fear",
-      "date": "2025-08-04T00:00:00.000Z"
+      "date": "2025-08-05T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 72.1 — Extreme Greed. down 6.4 vs yesterday. froth risk — a correction may be due, trim/hedge."
+  "summary": "MMI 66.1 — Greed. down 6.7 vs yesterday. momentum-positive but late-cycle; stay selective."
 }
