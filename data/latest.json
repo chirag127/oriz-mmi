@@ -1,12 +1,12 @@
 {
   "source": "tickertape",
-  "value": 62.76,
+  "value": 62.69,
   "zone": "Greed",
-  "ts": "2026-08-14T08:47:39+00:00",
-  "source_date": "2026-08-14T08:45:00.088Z",
-  "raw": 64.23,
-  "nifty": 24386.45,
-  "vix": -11.33,
+  "ts": "2026-08-15T07:55:05+00:00",
+  "source_date": "2026-08-14T14:20:00.046Z",
+  "raw": 64.09,
+  "nifty": 24366,
+  "vix": -11.31,
   "fii": -168702,
   "comparisons": [
     {
@@ -34,5 +34,5 @@
       "date": "2025-08-06T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 62.8 — Greed. down 2.9 vs yesterday. momentum-positive but late-cycle; stay selective."
+  "summary": "MMI 62.7 — Greed. down 3.0 vs yesterday. momentum-positive but late-cycle; stay selective."
 }
