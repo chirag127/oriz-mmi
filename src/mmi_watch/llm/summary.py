@@ -53,13 +53,22 @@ def _g4f_complete(prompt: str) -> str | None:
         return None
     try:
         client = Client()
-        resp = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-            timeout=45,
-        )
-        text = (resp.choices[0].message.content or "").strip()
-        return text or None
+        # "auto" lets g4f route to the best working keyless provider/model; fall
+        # through to tested models if it fails.
+        for model in ("auto", "gpt-4o", "gpt-4o-mini"):
+            try:
+                resp = client.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "user", "content": prompt}],
+                    timeout=45,
+                )
+                text = (resp.choices[0].message.content or "").strip()
+                if text:
+                    return text
+            except Exception as e:  # noqa: BLE001 - try next model
+                log.info("g4f model %s failed: %s", model, e)
+                continue
+        return None
     except Exception as e:  # noqa: BLE001 - any provider failure -> fallback
         log.info("g4f completion failed: %s", e)
         return None

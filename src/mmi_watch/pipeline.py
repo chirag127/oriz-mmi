@@ -77,9 +77,10 @@ def run(
 
     write_snapshot(reading, source, data_dir)
 
+    # Notification moved to oriz-nifty-signal: its 1PM job reads this repo's
+    # published data/latest.json and sends ONE combined Nifty+MMI message.
+    # This repo stays a pure MMI data producer (writes latest.json + history).
     if with_notify:
-        # hourly — send every run regardless of change (user directive)
-        from .notify.channels import notify_all
-        notify_all(reading, source)
+        log.info("notify handled by oriz-nifty-signal (combined); skipping self-send")
 
     return reading, changed
