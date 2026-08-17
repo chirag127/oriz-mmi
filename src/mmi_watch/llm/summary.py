@@ -63,8 +63,11 @@ def _g4f_complete(prompt: str) -> str | None:
                     timeout=45,
                 )
                 text = (resp.choices[0].message.content or "").strip()
-                if text:
+                # Reject junk/truncated fragments (e.g. auto sometimes returns "est.")
+                # so failover moves to the next model / the deterministic template.
+                if text and len(text) >= 15 and len(text.split()) >= 3:
                     return text
+                log.info("g4f model %s returned too-short output %r — trying next", model, text)
             except Exception as e:  # noqa: BLE001 - try next model
                 log.info("g4f model %s failed: %s", model, e)
                 continue
