@@ -59,7 +59,10 @@ def format_message(reading: MmiReading, source: str) -> str:
     if reading.summary:
         lines.append(_esc(reading.summary))
     lines.append(f'→ {SITE}')
-    lines.append(f'source: <a href="{TICKERTAPE}">Tickertape MMI</a>')
+    lines.append(
+        f'<i>Sources:</i> <a href="{TICKERTAPE}">Tickertape MMI</a> · '
+        f'<a href="https://www.tickertape.in/">Tickertape</a>'
+    )
     return "\n".join(lines)
 
 
