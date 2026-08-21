@@ -72,17 +72,28 @@ jobs:
 
           # Invoke notifier with the snapshot
           from mmi_watch.notify.channels import notify_all
-          from mmi_watch.models import MmiReading
+          from mmi_watch.models import MmiReading, Comparison
+
+          # latest.json stores comparisons as a list of {label, value, zone, date}
+          raw_comps = latest.get("comparisons", [])
+          comparisons = []
+          for c in raw_comps:
+              comparisons.append(Comparison(
+                  label=c.get("label", ""),
+                  value=c.get("value"),
+                  zone=c.get("zone", ""),
+                  date=c.get("date", ""),
+              ))
 
           reading = MmiReading(
               value=latest["value"],
               zone=latest["zone"],
-              prev=latest.get("prev"),
-              week_ago=latest.get("week_ago"),
-              month_ago=latest.get("month_ago"),
-              year_ago=latest.get("year_ago"),
+              comparisons=comparisons,
               summary=latest.get("summary"),
               ts=latest.get("ts", datetime.now(timezone.utc).isoformat()),
+              nifty=latest.get("nifty"),
+              vix=latest.get("vix"),
+              fii=latest.get("fii"),
           )
 
           result = notify_all(reading, source="mmi-watch-3h")
