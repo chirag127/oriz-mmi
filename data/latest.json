@@ -1,12 +1,12 @@
 {
   "source": "tickertape",
-  "value": 45.04,
+  "value": 43.98,
   "zone": "Fear",
-  "ts": "2026-08-21T08:08:18+00:00",
-  "source_date": "2026-08-21T08:06:00.035Z",
-  "raw": 47.16,
-  "nifty": 24239.7,
-  "vix": -11.28,
+  "ts": "2026-08-22T07:57:52+00:00",
+  "source_date": "2026-08-21T14:20:00.107Z",
+  "raw": 45.05,
+  "nifty": 24252,
+  "vix": -11.2,
   "fii": -212113,
   "comparisons": [
     {
@@ -34,5 +34,5 @@
       "date": "2025-08-13T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 45.0 — Fear. up 2.2 vs yesterday. caution in the air; contrarians watch for accumulation."
+  "summary": "MMI 44.0 — Fear. up 1.1 vs yesterday. caution in the air; contrarians watch for accumulation."
 }
