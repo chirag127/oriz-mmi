@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 53.88,
+  "value": 54.39,
   "zone": "Greed",
-  "ts": "2026-08-25T08:10:40+00:00",
-  "source_date": "2026-08-25T08:09:00.184Z",
-  "raw": 53.19,
-  "nifty": 24132.8,
-  "vix": -11.28,
-  "fii": -219383,
+  "ts": "2026-08-26T08:11:03+00:00",
+  "source_date": "2026-08-26T08:09:00.144Z",
+  "raw": 53.71,
+  "nifty": 24263.85,
+  "vix": -10.86,
+  "fii": -184227,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 49.81,
-      "zone": "Fear",
-      "date": "2026-08-24T00:00:00.000Z"
+      "value": 54.82,
+      "zone": "Greed",
+      "date": "2026-08-25T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 54.07,
-      "zone": "Greed",
-      "date": "2026-08-18T00:00:00.000Z"
+      "value": 48.96,
+      "zone": "Fear",
+      "date": "2026-08-19T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 49.42,
+      "value": 49.1,
       "zone": "Fear",
-      "date": "2026-07-24T00:00:00.000Z"
+      "date": "2026-07-27T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 22.82,
-      "zone": "Extreme Fear",
-      "date": "2025-08-18T00:00:00.000Z"
+      "value": 37.59,
+      "zone": "Fear",
+      "date": "2025-08-19T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 53.9 — Greed. up 4.1 vs yesterday. momentum-positive but late-cycle; stay selective."
+  "summary": "MMI 54.4 — Greed. flat vs yesterday. momentum-positive but late-cycle; stay selective."
 }
