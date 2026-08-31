@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 49.46,
+  "value": 47.6,
   "zone": "Fear",
-  "ts": "2026-08-30T13:11:10+00:00",
-  "source_date": "2026-08-28T14:20:00.061Z",
-  "raw": 46.28,
-  "nifty": 24175.65,
-  "vix": -10.68,
+  "ts": "2026-08-31T15:19:46+00:00",
+  "source_date": "2026-08-31T14:20:00.111Z",
+  "raw": 48.91,
+  "nifty": 24080.4,
+  "vix": -11.19,
   "fii": -197792,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 53.53,
-      "zone": "Greed",
-      "date": "2026-08-27T00:00:00.000Z"
+      "value": 49.46,
+      "zone": "Fear",
+      "date": "2026-08-28T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 43.98,
+      "value": 49.81,
       "zone": "Fear",
-      "date": "2026-08-21T00:00:00.000Z"
+      "date": "2026-08-24T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 55.89,
+      "value": 69.99,
       "zone": "Greed",
-      "date": "2026-07-29T00:00:00.000Z"
+      "date": "2026-07-30T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 43.09,
+      "value": 41.51,
       "zone": "Fear",
-      "date": "2025-08-21T00:00:00.000Z"
+      "date": "2025-08-22T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 49.5 — Fear. down 4.1 vs yesterday. caution in the air; contrarians watch for accumulation."
+  "summary": "MMI 47.6 — Fear. down 1.9 vs yesterday. caution in the air; contrarians watch for accumulation."
 }
