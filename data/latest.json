@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 38.59,
+  "value": 38.41,
   "zone": "Fear",
-  "ts": "2026-09-03T12:15:19+00:00",
-  "source_date": "2026-09-03T10:27:00.034Z",
-  "raw": 33.73,
-  "nifty": 23873.45,
-  "vix": -11.34,
-  "fii": -229163,
+  "ts": "2026-09-04T12:16:35+00:00",
+  "source_date": "2026-09-04T10:27:00.177Z",
+  "raw": 43.08,
+  "nifty": 23897.7,
+  "vix": -10.68,
+  "fii": -235102,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 40.96,
+      "value": 38.59,
       "zone": "Fear",
-      "date": "2026-09-02T00:00:00.000Z"
+      "date": "2026-09-03T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 53.53,
-      "zone": "Greed",
-      "date": "2026-08-27T00:00:00.000Z"
+      "value": 49.46,
+      "zone": "Fear",
+      "date": "2026-08-28T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 73.81,
+      "value": 74.42,
       "zone": "Extreme Greed",
-      "date": "2026-08-04T00:00:00.000Z"
+      "date": "2026-08-05T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 30.32,
-      "zone": "Fear",
-      "date": "2025-08-28T00:00:00.000Z"
+      "value": 24.85,
+      "zone": "Extreme Fear",
+      "date": "2025-08-29T00:00:00.000Z"
     }
   ],
-  "summary": "MMI at 38.6 reflects heightened fear, with nifty flat near 23,873 and India VIX down 11.34 points; sentiment remains subdued but recovering from last month's 74."
+  "summary": "MMI at 38.4 (Fear) is down from yesterday, last week and last month, above year-ago level, as Nifty trades near 23,900 and VIX falls 10.68%."
 }
