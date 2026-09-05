@@ -1,13 +1,13 @@
 {
   "source": "tickertape",
-  "value": 38.41,
+  "value": 43.87,
   "zone": "Fear",
-  "ts": "2026-09-04T12:16:35+00:00",
-  "source_date": "2026-09-04T10:27:00.177Z",
-  "raw": 43.08,
+  "ts": "2026-09-05T11:24:07+00:00",
+  "source_date": "2026-09-04T14:20:00.055Z",
+  "raw": 54.02,
   "nifty": 23897.7,
   "vix": -10.68,
-  "fii": -235102,
+  "fii": -209315,
   "comparisons": [
     {
       "label": "Yesterday",
@@ -34,5 +34,5 @@
       "date": "2025-08-29T00:00:00.000Z"
     }
   ],
-  "summary": "MMI at 38.4 (Fear) is down from yesterday, last week and last month, above year-ago level, as Nifty trades near 23,900 and VIX falls 10.68%."
+  "summary": "MMI rises to 43.9 from 39, signal shift from extreme fear to moderate fear amid declining volatility and mixed historical readings."
 }
