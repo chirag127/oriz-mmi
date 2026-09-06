@@ -2,7 +2,7 @@
   "source": "tickertape",
   "value": 43.87,
   "zone": "Fear",
-  "ts": "2026-09-05T11:24:07+00:00",
+  "ts": "2026-09-06T11:49:07+00:00",
   "source_date": "2026-09-04T14:20:00.055Z",
   "raw": 54.02,
   "nifty": 23897.7,
@@ -34,5 +34,5 @@
       "date": "2025-08-29T00:00:00.000Z"
     }
   ],
-  "summary": "MMI rises to 43.9 from 39, signal shift from extreme fear to moderate fear amid declining volatility and mixed historical readings."
+  "summary": "The MMI at 43.9 reflects mild fear, an improvement from last month's high, with Nifty stable and VIX down."
 }
