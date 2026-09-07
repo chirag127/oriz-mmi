@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 43.87,
+  "value": 46.64,
   "zone": "Fear",
-  "ts": "2026-09-06T11:49:07+00:00",
-  "source_date": "2026-09-04T14:20:00.055Z",
-  "raw": 54.02,
-  "nifty": 23897.7,
-  "vix": -10.68,
-  "fii": -209315,
+  "ts": "2026-09-07T13:40:33+00:00",
+  "source_date": "2026-09-07T10:27:00.039Z",
+  "raw": 39.26,
+  "nifty": 23779.15,
+  "vix": -11.16,
+  "fii": -235838,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 38.59,
+      "value": 43.87,
       "zone": "Fear",
-      "date": "2026-09-03T00:00:00.000Z"
+      "date": "2026-09-04T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 49.46,
+      "value": 47.6,
       "zone": "Fear",
-      "date": "2026-08-28T00:00:00.000Z"
+      "date": "2026-08-31T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 74.42,
+      "value": 77.97,
       "zone": "Extreme Greed",
-      "date": "2026-08-05T00:00:00.000Z"
+      "date": "2026-08-06T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 24.85,
-      "zone": "Extreme Fear",
-      "date": "2025-08-29T00:00:00.000Z"
+      "value": 32.77,
+      "zone": "Fear",
+      "date": "2025-09-01T00:00:00.000Z"
     }
   ],
-  "summary": "The MMI at 43.9 reflects mild fear, an improvement from last month's high, with Nifty stable and VIX down."
+  "summary": "The Market Mood Index at 46.6 indicates fear, up slightly from yesterday's 44, with India VIX declining by 11.16 points."
 }
