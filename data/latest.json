@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 46.64,
+  "value": 32.7,
   "zone": "Fear",
-  "ts": "2026-09-07T13:40:33+00:00",
-  "source_date": "2026-09-07T10:27:00.039Z",
-  "raw": 39.26,
-  "nifty": 23779.15,
-  "vix": -11.16,
-  "fii": -235838,
+  "ts": "2026-09-08T12:18:13+00:00",
+  "source_date": "2026-09-08T10:27:00.042Z",
+  "raw": 26.14,
+  "nifty": 23635.1,
+  "vix": -11.23,
+  "fii": -250093,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 43.87,
+      "value": 46.64,
       "zone": "Fear",
-      "date": "2026-09-04T00:00:00.000Z"
+      "date": "2026-09-07T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 47.6,
+      "value": 43.69,
       "zone": "Fear",
-      "date": "2026-08-31T00:00:00.000Z"
+      "date": "2026-09-01T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 77.97,
+      "value": 81.93,
       "zone": "Extreme Greed",
-      "date": "2026-08-06T00:00:00.000Z"
+      "date": "2026-08-07T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 32.77,
+      "value": 36.28,
       "zone": "Fear",
-      "date": "2025-09-01T00:00:00.000Z"
+      "date": "2025-09-02T00:00:00.000Z"
     }
   ],
-  "summary": "The Market Mood Index at 46.6 indicates fear, up slightly from yesterday's 44, with India VIX declining by 11.16 points."
+  "summary": "MMI 32.7 — Fear. down 13.9 vs yesterday. caution in the air; contrarians watch for accumulation."
 }
