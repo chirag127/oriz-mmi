@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 32.7,
-  "zone": "Fear",
-  "ts": "2026-09-08T12:18:13+00:00",
-  "source_date": "2026-09-08T10:27:00.042Z",
-  "raw": 26.14,
-  "nifty": 23635.1,
-  "vix": -11.23,
-  "fii": -250093,
+  "value": 29.75,
+  "zone": "Extreme Fear",
+  "ts": "2026-09-09T12:34:17+00:00",
+  "source_date": "2026-09-09T10:27:00.043Z",
+  "raw": 33.51,
+  "nifty": 23431.5,
+  "vix": -11.92,
+  "fii": -261557,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 46.64,
+      "value": 32.63,
       "zone": "Fear",
-      "date": "2026-09-07T00:00:00.000Z"
+      "date": "2026-09-08T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 43.69,
+      "value": 40.96,
       "zone": "Fear",
-      "date": "2026-09-01T00:00:00.000Z"
+      "date": "2026-09-02T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 81.93,
+      "value": 81.39,
       "zone": "Extreme Greed",
-      "date": "2026-08-07T00:00:00.000Z"
+      "date": "2026-08-10T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 36.28,
+      "value": 37.55,
       "zone": "Fear",
-      "date": "2025-09-02T00:00:00.000Z"
+      "date": "2025-09-03T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 32.7 — Fear. down 13.9 vs yesterday. caution in the air; contrarians watch for accumulation."
+  "summary": "MMI slides to 29.8 (Extreme Fear) from 81 last month, diverging from an 11.9% VIX drop at Nifty 23,431."
 }
