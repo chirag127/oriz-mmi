@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 29.75,
+  "value": 27.25,
   "zone": "Extreme Fear",
-  "ts": "2026-09-09T12:34:17+00:00",
-  "source_date": "2026-09-09T10:27:00.043Z",
-  "raw": 33.51,
-  "nifty": 23431.5,
-  "vix": -11.92,
-  "fii": -261557,
+  "ts": "2026-09-10T12:24:46+00:00",
+  "source_date": "2026-09-10T10:27:00.068Z",
+  "raw": 20.99,
+  "nifty": 23477.8,
+  "vix": -11.8,
+  "fii": -276250,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 32.63,
-      "zone": "Fear",
-      "date": "2026-09-08T00:00:00.000Z"
+      "value": 29.75,
+      "zone": "Extreme Fear",
+      "date": "2026-09-09T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 40.96,
+      "value": 38.59,
       "zone": "Fear",
-      "date": "2026-09-02T00:00:00.000Z"
+      "date": "2026-09-03T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 81.39,
+      "value": 78.52,
       "zone": "Extreme Greed",
-      "date": "2026-08-10T00:00:00.000Z"
+      "date": "2026-08-11T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 37.55,
+      "value": 41.69,
       "zone": "Fear",
-      "date": "2025-09-03T00:00:00.000Z"
+      "date": "2025-09-04T00:00:00.000Z"
     }
   ],
-  "summary": "MMI slides to 29.8 (Extreme Fear) from 81 last month, diverging from an 11.9% VIX drop at Nifty 23,431."
+  "summary": "The Market Mood Index is at 27.2, indicating extreme fear, while the India VIX has decreased by 11.8 points."
 }
