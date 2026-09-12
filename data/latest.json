@@ -2,8 +2,8 @@
   "source": "tickertape",
   "value": 26.71,
   "zone": "Extreme Fear",
-  "ts": "2026-09-11T12:27:16+00:00",
-  "source_date": "2026-09-11T10:27:00.069Z",
+  "ts": "2026-09-12T11:44:56+00:00",
+  "source_date": "2026-09-11T14:20:00.127Z",
   "raw": 32.42,
   "nifty": 23398.1,
   "vix": -12.29,
@@ -34,5 +34,5 @@
       "date": "2025-09-05T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 26.7 — Extreme Fear. down 0.5 vs yesterday. historically a buy-the-fear zone — markets may be oversold."
+  "summary": "MMI at 26.7 shows extreme fear, near yesterday's level, while falling VIX suggests market volatility is now easing."
 }
