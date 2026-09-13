@@ -2,7 +2,7 @@
   "source": "tickertape",
   "value": 26.71,
   "zone": "Extreme Fear",
-  "ts": "2026-09-12T11:44:56+00:00",
+  "ts": "2026-09-13T12:55:14+00:00",
   "source_date": "2026-09-11T14:20:00.127Z",
   "raw": 32.42,
   "nifty": 23398.1,
@@ -34,5 +34,5 @@
       "date": "2025-09-05T00:00:00.000Z"
     }
   ],
-  "summary": "MMI at 26.7 shows extreme fear, near yesterday's level, while falling VIX suggests market volatility is now easing."
+  "summary": "The MMI remains in Extreme Fear territory at 26.7, with Nifty slightly lower and volatility declining, while the index shows a sustained downtrend from 73 last month to current levels."
 }
