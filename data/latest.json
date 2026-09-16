@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 21.5,
+  "value": 10.36,
   "zone": "Extreme Fear",
-  "ts": "2026-09-15T12:50:46+00:00",
-  "source_date": "2026-09-15T10:27:00.043Z",
-  "raw": 10.58,
-  "nifty": 23118.6,
-  "vix": -13.43,
-  "fii": -261557,
+  "ts": "2026-09-16T12:47:13+00:00",
+  "source_date": "2026-09-16T10:27:00.062Z",
+  "raw": 10.14,
+  "nifty": 23217.6,
+  "vix": -13.17,
+  "fii": -291052,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 26.71,
+      "value": 21.5,
       "zone": "Extreme Fear",
-      "date": "2026-09-11T00:00:00.000Z"
+      "date": "2026-09-15T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 46.64,
+      "value": 32.63,
       "zone": "Fear",
-      "date": "2026-09-07T00:00:00.000Z"
+      "date": "2026-09-08T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 65.64,
+      "value": 62.69,
       "zone": "Greed",
-      "date": "2026-08-13T00:00:00.000Z"
+      "date": "2026-08-14T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 43.61,
+      "value": 42.13,
       "zone": "Fear",
-      "date": "2025-09-08T00:00:00.000Z"
+      "date": "2025-09-09T00:00:00.000Z"
     }
   ],
-  "summary": "MMI at 21.5 remains in extreme fear, but sentiment has improved from 27 yesterday, 47 last week, and 66 last month."
+  "summary": "MMI at 10.4 indicates extreme fear, down from 22 yesterday, 33 last week, and 63 last month, with VIX falling 13.17%."
 }
