@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 10.36,
+  "value": 10.07,
   "zone": "Extreme Fear",
-  "ts": "2026-09-16T12:47:13+00:00",
-  "source_date": "2026-09-16T10:27:00.062Z",
-  "raw": 10.14,
-  "nifty": 23217.6,
-  "vix": -13.17,
-  "fii": -291052,
+  "ts": "2026-09-17T12:47:06+00:00",
+  "source_date": "2026-09-17T10:27:00.058Z",
+  "raw": 10.0,
+  "nifty": 23270.6,
+  "vix": -12.29,
+  "fii": -288103,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 21.5,
+      "value": 10.36,
       "zone": "Extreme Fear",
-      "date": "2026-09-15T00:00:00.000Z"
+      "date": "2026-09-16T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 32.63,
-      "zone": "Fear",
-      "date": "2026-09-08T00:00:00.000Z"
+      "value": 29.75,
+      "zone": "Extreme Fear",
+      "date": "2026-09-09T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 62.69,
+      "value": 58.57,
       "zone": "Greed",
-      "date": "2026-08-14T00:00:00.000Z"
+      "date": "2026-08-17T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 42.13,
+      "value": 43.32,
       "zone": "Fear",
-      "date": "2025-09-09T00:00:00.000Z"
+      "date": "2025-09-10T00:00:00.000Z"
     }
   ],
-  "summary": "MMI at 10.4 indicates extreme fear, down from 22 yesterday, 33 last week, and 63 last month, with VIX falling 13.17%."
+  "summary": "MMI at 10.1 signals extreme fear, slightly above yesterday but well below recent periods, while India VIX fell sharply."
 }
