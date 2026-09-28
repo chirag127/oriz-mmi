@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 16.15,
+  "value": 14.66,
   "zone": "Extreme Fear",
-  "ts": "2026-09-26T12:23:57+00:00",
-  "source_date": "2026-09-25T14:20:00.137Z",
-  "raw": 19.32,
-  "nifty": 23140.5,
-  "vix": -12.16,
-  "fii": -302908,
+  "ts": "2026-09-28T15:50:18+00:00",
+  "source_date": "2026-09-28T14:20:00.080Z",
+  "raw": 10.0,
+  "nifty": 22780.25,
+  "vix": -13.64,
+  "fii": -312001,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 23.62,
+      "value": 16.15,
       "zone": "Extreme Fear",
-      "date": "2026-09-24T00:00:00.000Z"
+      "date": "2026-09-25T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 13.47,
+      "value": 22.72,
       "zone": "Extreme Fear",
-      "date": "2026-09-18T00:00:00.000Z"
+      "date": "2026-09-21T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 54.82,
+      "value": 54.75,
       "zone": "Greed",
-      "date": "2026-08-25T00:00:00.000Z"
+      "date": "2026-08-26T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 69.38,
-      "zone": "Greed",
-      "date": "2025-09-18T00:00:00.000Z"
+      "value": 78.41,
+      "zone": "Extreme Greed",
+      "date": "2025-09-19T00:00:00.000Z"
     }
   ],
-  "summary": "The Tickertape Market Mood Index (MMI) at 16.1 (Extreme Fear) reflects extreme pessimism, with the Nifty down and India VIX declining, signaling heightened risk aversion."
+  "summary": "MMI at 14.7 signals extreme fear, down from recent weeks, while India VIX fell 13.6% and Nifty holds near 22,780, suggesting cautious but stabilizing market."
 }
