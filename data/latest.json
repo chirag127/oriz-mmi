@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 16.51,
+  "value": 19.18,
   "zone": "Extreme Fear",
-  "ts": "2026-09-29T14:17:52+00:00",
-  "source_date": "2026-09-29T10:27:00.030Z",
-  "raw": 23.01,
-  "nifty": 22716.2,
-  "vix": -13.41,
-  "fii": -312001,
+  "ts": "2026-09-30T14:12:06+00:00",
+  "source_date": "2026-09-30T10:27:00.037Z",
+  "raw": 15.36,
+  "nifty": 22620.45,
+  "vix": -13.49,
+  "fii": -267307,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 14.66,
+      "value": 16.51,
       "zone": "Extreme Fear",
-      "date": "2026-09-28T00:00:00.000Z"
+      "date": "2026-09-29T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 30.75,
+      "value": 33.62,
       "zone": "Fear",
-      "date": "2026-09-22T00:00:00.000Z"
+      "date": "2026-09-23T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 53.53,
-      "zone": "Greed",
-      "date": "2026-08-27T00:00:00.000Z"
+      "value": 49.46,
+      "zone": "Fear",
+      "date": "2026-08-28T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 74.38,
+      "value": 73.61,
       "zone": "Extreme Greed",
-      "date": "2025-09-22T00:00:00.000Z"
+      "date": "2025-09-23T00:00:00.000Z"
     }
   ],
-  "summary": "India’s MMI at 16.5 remains in Extreme Fear, down from 31 last week and 54 last month, alongside a 13.41% decline in India VIX."
+  "summary": "The Indian market's MMI has plunged to extreme fear (19.2) while the VIX fell sharply, indicating price weakness without a volatility spike."
 }
