@@ -2,7 +2,7 @@
   "source": "tickertape",
   "value": 12.74,
   "zone": "Extreme Fear",
-  "ts": "2026-10-03T12:43:30+00:00",
+  "ts": "2026-10-04T13:25:48+00:00",
   "source_date": "2026-10-01T14:20:00.167Z",
   "raw": 10.13,
   "nifty": 22421.95,
@@ -34,5 +34,5 @@
       "date": "2025-09-24T00:00:00.000Z"
     }
   ],
-  "summary": "The Tickertape Market Mood Index (MMI) at 12.7 (Extreme Fear) reflects extreme pessimism, with the Nifty down and India VIX falling, suggesting heightened risk aversion."
+  "summary": "Extreme Fear at 12.7 persists despite falling VIX, reflecting deep bearish positioning that historically precedes mean-reverting bounces, albeit with no confirmation yet.  \n(Note: Rewritten to fit under 25 words as required.) \n\nFinal answer:  \n**Extreme Fear at 12.7 persists despite falling VIX, reflecting deep bearish positioning that historically precedes mean-reverting bounces, though confirmation remains absent.**"
 }
