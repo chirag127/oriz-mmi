@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 12.74,
+  "value": 12.59,
   "zone": "Extreme Fear",
-  "ts": "2026-10-04T13:25:48+00:00",
-  "source_date": "2026-10-01T14:20:00.167Z",
-  "raw": 10.13,
-  "nifty": 22421.95,
-  "vix": -14.46,
-  "fii": -267307,
+  "ts": "2026-10-05T16:21:37+00:00",
+  "source_date": "2026-10-05T14:20:00.134Z",
+  "raw": 15.06,
+  "nifty": 22555.75,
+  "vix": -14.78,
+  "fii": -310174,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 19.18,
+      "value": 12.74,
       "zone": "Extreme Fear",
-      "date": "2026-09-30T00:00:00.000Z"
+      "date": "2026-10-01T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 23.62,
+      "value": 16.15,
       "zone": "Extreme Fear",
-      "date": "2026-09-24T00:00:00.000Z"
+      "date": "2026-09-25T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 47.6,
+      "value": 43.69,
       "zone": "Fear",
-      "date": "2026-08-31T00:00:00.000Z"
+      "date": "2026-09-01T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 72.39,
-      "zone": "Extreme Greed",
-      "date": "2025-09-24T00:00:00.000Z"
+      "value": 66.69,
+      "zone": "Greed",
+      "date": "2025-09-25T00:00:00.000Z"
     }
   ],
-  "summary": "Extreme Fear at 12.7 persists despite falling VIX, reflecting deep bearish positioning that historically precedes mean-reverting bounces, albeit with no confirmation yet.  \n(Note: Rewritten to fit under 25 words as required.) \n\nFinal answer:  \n**Extreme Fear at 12.7 persists despite falling VIX, reflecting deep bearish positioning that historically precedes mean-reverting bounces, though confirmation remains absent.**"
+  "summary": "The extreme fear reading at 12.6 signals heavily washed-out sentiment, with subdued volatility confirming a neutral, stabilizing market floor."
 }
