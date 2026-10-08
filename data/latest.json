@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 17.68,
+  "value": 17.02,
   "zone": "Extreme Fear",
-  "ts": "2026-10-07T14:45:24+00:00",
-  "source_date": "2026-10-07T14:20:00.229Z",
-  "raw": 15.63,
-  "nifty": 22603.05,
-  "vix": -13.89,
-  "fii": -293725,
+  "ts": "2026-10-08T14:54:03+00:00",
+  "source_date": "2026-10-08T14:20:00.177Z",
+  "raw": 18.41,
+  "nifty": 22231.8,
+  "vix": -15.28,
+  "fii": -298285,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 17.39,
+      "value": 17.68,
       "zone": "Extreme Fear",
-      "date": "2026-10-06T00:00:00.000Z"
+      "date": "2026-10-07T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 16.51,
+      "value": 19.18,
       "zone": "Extreme Fear",
-      "date": "2026-09-29T00:00:00.000Z"
+      "date": "2026-09-30T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 38.59,
+      "value": 43.87,
       "zone": "Fear",
-      "date": "2026-09-03T00:00:00.000Z"
+      "date": "2026-09-04T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 48.11,
+      "value": 48.49,
       "zone": "Fear",
-      "date": "2025-09-29T00:00:00.000Z"
+      "date": "2025-09-30T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 17.7 — Extreme Fear. flat vs yesterday. historically a buy-the-fear zone — markets may be oversold."
+  "summary": "MMI 17.0 — Extreme Fear. down 0.7 vs yesterday. historically a buy-the-fear zone — markets may be oversold."
 }
