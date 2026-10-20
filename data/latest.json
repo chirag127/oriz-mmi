@@ -2,7 +2,7 @@
   "source": "tickertape",
   "value": 50.25,
   "zone": "Greed",
-  "ts": "2026-10-19T14:57:10+00:00",
+  "ts": "2026-10-20T12:54:41+00:00",
   "source_date": "2026-10-19T14:20:00.155Z",
   "raw": 49.78,
   "nifty": 22888.95,
@@ -34,5 +34,5 @@
       "date": "2025-10-10T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 50.2 — Greed. up 6.5 vs yesterday. momentum-positive but late-cycle; stay selective."
+  "summary": "The MMI’s rise to 50.2 signals a shift to greed from last month’s 10, while the sharp India VIX decline suggests easing near-term volatility."
 }
