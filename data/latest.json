@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 50.25,
-  "zone": "Greed",
-  "ts": "2026-10-20T12:54:41+00:00",
-  "source_date": "2026-10-19T14:20:00.155Z",
-  "raw": 49.78,
-  "nifty": 22888.95,
-  "vix": -14.77,
-  "fii": -272999,
+  "value": 46.39,
+  "zone": "Fear",
+  "ts": "2026-10-21T13:07:50+00:00",
+  "source_date": "2026-10-21T10:27:00.043Z",
+  "raw": 43.0,
+  "nifty": 22811.35,
+  "vix": -15.68,
+  "fii": -279930,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 43.7,
-      "zone": "Fear",
-      "date": "2026-10-16T00:00:00.000Z"
+      "value": 50.25,
+      "zone": "Greed",
+      "date": "2026-10-19T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 23.36,
+      "value": 27.37,
       "zone": "Extreme Fear",
-      "date": "2026-10-12T00:00:00.000Z"
+      "date": "2026-10-13T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 10.36,
+      "value": 10.07,
       "zone": "Extreme Fear",
-      "date": "2026-09-16T00:00:00.000Z"
+      "date": "2026-09-17T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 64.64,
+      "value": 64.66,
       "zone": "Greed",
-      "date": "2025-10-10T00:00:00.000Z"
+      "date": "2025-10-13T00:00:00.000Z"
     }
   ],
-  "summary": "The MMI’s rise to 50.2 signals a shift to greed from last month’s 10, while the sharp India VIX decline suggests easing near-term volatility."
+  "summary": "The Tickertape Market Mood Index (MMI) at 46.4 reflects cautious sentiment, down from 50 yesterday but above the 27-week low, with the Nifty and VIX indicating a slight easing of volatility."
 }
