@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 46.39,
+  "value": 35.49,
   "zone": "Fear",
-  "ts": "2026-10-21T13:07:50+00:00",
-  "source_date": "2026-10-21T10:27:00.043Z",
-  "raw": 43.0,
-  "nifty": 22811.35,
-  "vix": -15.68,
+  "ts": "2026-10-22T13:09:19+00:00",
+  "source_date": "2026-10-22T12:27:55.382Z",
+  "raw": 27.97,
+  "nifty": 22687.65,
+  "vix": -15.76,
   "fii": -279930,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 50.25,
-      "zone": "Greed",
-      "date": "2026-10-19T00:00:00.000Z"
+      "value": 46.39,
+      "zone": "Fear",
+      "date": "2026-10-21T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 27.37,
-      "zone": "Extreme Fear",
-      "date": "2026-10-13T00:00:00.000Z"
+      "value": 36.23,
+      "zone": "Fear",
+      "date": "2026-10-14T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 10.07,
+      "value": 13.47,
       "zone": "Extreme Fear",
-      "date": "2026-09-17T00:00:00.000Z"
+      "date": "2026-09-18T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 64.66,
+      "value": 55.14,
       "zone": "Greed",
-      "date": "2025-10-13T00:00:00.000Z"
+      "date": "2025-10-14T00:00:00.000Z"
     }
   ],
-  "summary": "The Tickertape Market Mood Index (MMI) at 46.4 reflects cautious sentiment, down from 50 yesterday but above the 27-week low, with the Nifty and VIX indicating a slight easing of volatility."
+  "summary": "The MMI at 35.5 signals fear, rebounding from last month's extreme fear (13) but well below last year's 55, reflecting cautious optimism amid falling VIX."
 }
