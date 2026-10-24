@@ -1,13 +1,13 @@
 {
   "source": "tickertape",
-  "value": 30.34,
+  "value": 30.62,
   "zone": "Fear",
-  "ts": "2026-10-23T12:48:12+00:00",
-  "source_date": "2026-10-23T10:27:00.087Z",
-  "raw": 32.72,
+  "ts": "2026-10-24T12:12:34+00:00",
+  "source_date": "2026-10-23T14:20:00.205Z",
+  "raw": 33.27,
   "nifty": 22600,
   "vix": -16.86,
-  "fii": -280300,
+  "fii": -277628,
   "comparisons": [
     {
       "label": "Yesterday",
@@ -34,5 +34,5 @@
       "date": "2025-10-15T00:00:00.000Z"
     }
   ],
-  "summary": "MMI at 30.3 (Fear) fell from 35 yesterday and 40 last week, above last month’s 23; Nifty 22,600, VIX down 16.86%."
+  "summary": "MMI at 30.6 (fear), down from 35 yesterday and 40 last week, with Nifty at 22600 and VIX down 16.86%."
 }
