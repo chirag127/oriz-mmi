@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 40.71,
+  "value": 41.76,
   "zone": "Fear",
-  "ts": "2026-10-27T13:33:36+00:00",
-  "source_date": "2026-10-27T10:27:00.116Z",
-  "raw": 45.87,
-  "nifty": 22749.75,
-  "vix": -16.4,
+  "ts": "2026-10-28T14:20:58+00:00",
+  "source_date": "2026-10-28T14:20:00.155Z",
+  "raw": 37.27,
+  "nifty": 22698.85,
+  "vix": -16.25,
   "fii": -277105,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 34.41,
+      "value": 40.9,
       "zone": "Fear",
-      "date": "2026-10-26T00:00:00.000Z"
+      "date": "2026-10-27T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 50.25,
-      "zone": "Greed",
-      "date": "2026-10-19T00:00:00.000Z"
+      "value": 46.39,
+      "zone": "Fear",
+      "date": "2026-10-21T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 33.62,
-      "zone": "Fear",
-      "date": "2026-09-23T00:00:00.000Z"
+      "value": 23.62,
+      "zone": "Extreme Fear",
+      "date": "2026-09-24T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 69.61,
-      "zone": "Greed",
-      "date": "2025-10-17T00:00:00.000Z"
+      "value": 76.39,
+      "zone": "Extreme Greed",
+      "date": "2025-10-20T00:00:00.000Z"
     }
   ],
-  "summary": "The Indian market's Tickertape Mood Index is currently at 40.7, indicating a fearful sentiment."
+  "summary": "MMI holds in fear at 41.8, steady versus yesterday and below last week, as softer VIX signals easing volatility."
 }
