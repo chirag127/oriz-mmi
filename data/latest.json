@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 41.76,
+  "value": 47.04,
   "zone": "Fear",
-  "ts": "2026-10-28T14:20:58+00:00",
-  "source_date": "2026-10-28T14:20:00.155Z",
-  "raw": 37.27,
-  "nifty": 22698.85,
-  "vix": -16.25,
-  "fii": -277105,
+  "ts": "2026-10-29T14:37:23+00:00",
+  "source_date": "2026-10-29T14:20:00.169Z",
+  "raw": 56.81,
+  "nifty": 22936.75,
+  "vix": -15.12,
+  "fii": -235042,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 40.9,
+      "value": 41.76,
       "zone": "Fear",
-      "date": "2026-10-27T00:00:00.000Z"
+      "date": "2026-10-28T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 46.39,
+      "value": 35.49,
       "zone": "Fear",
-      "date": "2026-10-21T00:00:00.000Z"
+      "date": "2026-10-22T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 23.62,
+      "value": 16.15,
       "zone": "Extreme Fear",
-      "date": "2026-09-24T00:00:00.000Z"
+      "date": "2026-09-25T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 76.39,
+      "value": 82.48,
       "zone": "Extreme Greed",
-      "date": "2025-10-20T00:00:00.000Z"
+      "date": "2025-10-21T00:00:00.000Z"
     }
   ],
-  "summary": "MMI holds in fear at 41.8, steady versus yesterday and below last week, as softer VIX signals easing volatility."
+  "summary": "MMI at 47 reflects fear, up from 42 yesterday and 35 last week, while a 15% VIX drop suggests easing volatility, Nifty at 22,936."
 }
