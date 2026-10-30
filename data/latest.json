@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 47.04,
-  "zone": "Fear",
-  "ts": "2026-10-29T14:37:23+00:00",
-  "source_date": "2026-10-29T14:20:00.169Z",
-  "raw": 56.81,
-  "nifty": 22936.75,
-  "vix": -15.12,
-  "fii": -235042,
+  "value": 50.4,
+  "zone": "Greed",
+  "ts": "2026-10-30T14:30:50+00:00",
+  "source_date": "2026-10-30T14:20:00.070Z",
+  "raw": 43.99,
+  "nifty": 23053.1,
+  "vix": -15.3,
+  "fii": -238023,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 41.76,
+      "value": 47.04,
       "zone": "Fear",
-      "date": "2026-10-28T00:00:00.000Z"
+      "date": "2026-10-29T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 35.49,
+      "value": 30.62,
       "zone": "Fear",
-      "date": "2026-10-22T00:00:00.000Z"
+      "date": "2026-10-23T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 16.15,
+      "value": 14.66,
       "zone": "Extreme Fear",
-      "date": "2026-09-25T00:00:00.000Z"
+      "date": "2026-09-28T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 82.48,
+      "value": 79.05,
       "zone": "Extreme Greed",
-      "date": "2025-10-21T00:00:00.000Z"
+      "date": "2025-10-23T00:00:00.000Z"
     }
   ],
-  "summary": "MMI at 47 reflects fear, up from 42 yesterday and 35 last week, while a 15% VIX drop suggests easing volatility, Nifty at 22,936."
+  "summary": "At 50.4 (Greed), the MMI shows a sharp rebound from recent lows, though it remains well below last year's 79."
 }
