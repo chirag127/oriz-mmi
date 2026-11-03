@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 50.14,
+  "value": 58.86,
   "zone": "Greed",
-  "ts": "2026-11-02T17:24:33+00:00",
-  "source_date": "2026-11-02T14:20:00.064Z",
-  "raw": 56.3,
-  "nifty": 23440.8,
-  "vix": -15.5,
-  "fii": -240753,
+  "ts": "2026-11-03T15:27:35+00:00",
+  "source_date": "2026-11-03T14:20:00.164Z",
+  "raw": 61.42,
+  "nifty": 23810.85,
+  "vix": -15.72,
+  "fii": -233199,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 50.4,
+      "value": 50.14,
       "zone": "Greed",
-      "date": "2026-10-30T00:00:00.000Z"
+      "date": "2026-11-02T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 34.41,
+      "value": 40.9,
       "zone": "Fear",
-      "date": "2026-10-26T00:00:00.000Z"
+      "date": "2026-10-27T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 16.51,
+      "value": 19.18,
       "zone": "Extreme Fear",
-      "date": "2026-09-29T00:00:00.000Z"
+      "date": "2026-09-30T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 76.06,
+      "value": 75.47,
       "zone": "Extreme Greed",
-      "date": "2025-10-24T00:00:00.000Z"
+      "date": "2025-10-27T00:00:00.000Z"
     }
   ],
-  "summary": "MMI at 50.1 signals balanced sentiment."
+  "summary": "At 58.9 (Greed), the MMI has rebounded sharply from last month's 19, though it remains below last year's 75 reading."
 }
