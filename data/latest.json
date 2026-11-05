@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 69.11,
-  "zone": "Greed",
-  "ts": "2026-11-04T15:42:10+00:00",
-  "source_date": "2026-11-04T14:20:00.245Z",
-  "raw": 76.8,
-  "nifty": 23960.6,
-  "vix": -15.19,
-  "fii": -202757,
+  "value": 76.17,
+  "zone": "Extreme Greed",
+  "ts": "2026-11-05T15:44:53+00:00",
+  "source_date": "2026-11-05T14:20:00.219Z",
+  "raw": 75.55,
+  "nifty": 24536.6,
+  "vix": -15.58,
+  "fii": -185979,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 58.86,
+      "value": 69.11,
       "zone": "Greed",
-      "date": "2026-11-03T00:00:00.000Z"
+      "date": "2026-11-04T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 41.76,
+      "value": 47.04,
       "zone": "Fear",
-      "date": "2026-10-28T00:00:00.000Z"
+      "date": "2026-10-29T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 12.74,
+      "value": 12.59,
       "zone": "Extreme Fear",
-      "date": "2026-10-01T00:00:00.000Z"
+      "date": "2026-10-05T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 70.56,
-      "zone": "Extreme Greed",
-      "date": "2025-10-28T00:00:00.000Z"
+      "value": 64.46,
+      "zone": "Greed",
+      "date": "2025-10-29T00:00:00.000Z"
     }
   ],
-  "summary": "India's Tickertape Market Mood Index at 69.1 indicates investors' growing greed."
+  "summary": "MMI indicates extreme greed at 76.2, after a steep climb from recent lows, as VIX dropped and Nifty remained high."
 }
