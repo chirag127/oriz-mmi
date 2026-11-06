@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 76.17,
+  "value": 77.16,
   "zone": "Extreme Greed",
-  "ts": "2026-11-05T15:44:53+00:00",
-  "source_date": "2026-11-05T14:20:00.219Z",
-  "raw": 75.55,
-  "nifty": 24536.6,
-  "vix": -15.58,
-  "fii": -185979,
+  "ts": "2026-11-06T15:19:58+00:00",
+  "source_date": "2026-11-06T14:20:00.171Z",
+  "raw": 78.78,
+  "nifty": 25030.35,
+  "vix": -17.47,
+  "fii": -137438,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 69.11,
-      "zone": "Greed",
-      "date": "2026-11-04T00:00:00.000Z"
+      "value": 76.17,
+      "zone": "Extreme Greed",
+      "date": "2026-11-05T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 47.04,
-      "zone": "Fear",
-      "date": "2026-10-29T00:00:00.000Z"
+      "value": 50.4,
+      "zone": "Greed",
+      "date": "2026-10-30T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 12.59,
+      "value": 17.39,
       "zone": "Extreme Fear",
-      "date": "2026-10-05T00:00:00.000Z"
+      "date": "2026-10-06T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 64.46,
+      "value": 62.73,
       "zone": "Greed",
-      "date": "2025-10-29T00:00:00.000Z"
+      "date": "2025-10-30T00:00:00.000Z"
     }
   ],
-  "summary": "MMI indicates extreme greed at 76.2, after a steep climb from recent lows, as VIX dropped and Nifty remained high."
+  "summary": "Tickertape MMI at 77.2 indicates extreme greed after climbing from 17 last month, while Nifty 25030 and VIX -17.47 reflect elevated, calmer sentiment."
 }
