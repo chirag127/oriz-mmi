@@ -2,7 +2,7 @@
   "source": "tickertape",
   "value": 77.5,
   "zone": "Extreme Greed",
-  "ts": "2026-11-09T17:46:21+00:00",
+  "ts": "2026-11-10T15:46:09+00:00",
   "source_date": "2026-11-09T14:20:00.105Z",
   "raw": 73.78,
   "nifty": 25044.65,
@@ -34,5 +34,5 @@
       "date": "2025-11-03T00:00:00.000Z"
     }
   ],
-  "summary": "The Tickertape Market Mood Index (MMI) at 77.5 reflects extreme investor optimism, with the Nifty near record highs and a sharp decline in volatility."
+  "summary": "Tickertape’s MMI at 77.5 signals Extreme Greed, slightly below yesterday but sharply above recent levels, as India VIX dropped 17.42%."
 }
