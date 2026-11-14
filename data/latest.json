@@ -2,7 +2,7 @@
   "source": "tickertape",
   "value": 79.23,
   "zone": "Extreme Greed",
-  "ts": "2026-11-13T15:39:30+00:00",
+  "ts": "2026-11-14T14:27:29+00:00",
   "source_date": "2026-11-13T14:20:00.152Z",
   "raw": 75.33,
   "nifty": 25144.3,
@@ -34,5 +34,5 @@
       "date": "2025-11-07T00:00:00.000Z"
     }
   ],
-  "summary": "The MMI reads extreme greed at 79.2, off from yesterday’s 82 but above last month’s 27, as VIX drops 15.5% and Nifty stands at 25,144.3."
+  "summary": "MMI 79.2 indicates extreme greed, down from 82 yesterday versus 27 last month; Nifty at 25,144.3 with VIX down 15.5%."
 }
