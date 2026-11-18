@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 76.59,
+  "value": 72.99,
   "zone": "Extreme Greed",
-  "ts": "2026-11-17T17:01:57+00:00",
-  "source_date": "2026-11-17T14:20:00.272Z",
-  "raw": 75.83,
-  "nifty": 25387.4,
-  "vix": -15.52,
-  "fii": -56687,
+  "ts": "2026-11-18T16:41:59+00:00",
+  "source_date": "2026-11-18T14:20:00.291Z",
+  "raw": 70.14,
+  "nifty": 25227.95,
+  "vix": -15.57,
+  "fii": -65123,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 76.34,
+      "value": 76.59,
       "zone": "Extreme Greed",
-      "date": "2026-11-16T00:00:00.000Z"
+      "date": "2026-11-17T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 77.5,
+      "value": 77.7,
       "zone": "Extreme Greed",
-      "date": "2026-11-09T00:00:00.000Z"
+      "date": "2026-11-11T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 39.51,
+      "value": 43.7,
       "zone": "Fear",
-      "date": "2026-10-15T00:00:00.000Z"
+      "date": "2026-10-16T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 52.25,
+      "value": 58.92,
       "zone": "Greed",
-      "date": "2025-11-11T00:00:00.000Z"
+      "date": "2025-11-12T00:00:00.000Z"
     }
   ],
-  "summary": "### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or Android 13 or later).\n- Sign in with the same account.\n\nIf you don't sign in by December 31, 2026, your Copilot history and content will be deleted. If you can't use the new app on this phone, sign in on your PC or Mac.\n\n[Install now](https://unifiedlink.svc.cloud.microsoft/app/copilot/?openAppStoreOnLoad=true&fromcode=cmm5pinh4s5&referrer=utm_source%3Dmai_copilot_migration%26utm_campaign%3Dmigration_chatblock&ocid=migration_chatblock&pt=80423&ct=migration_chatblock&qrversion=email&ccac=tofmigration)"
+  "summary": "MMI at 73 signals extreme greed, easing from 77–78 but well above last month's 44, while India VIX's 15.57 drop suggests calming volatility."
 }
