@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 71.87,
+  "value": 74.79,
   "zone": "Extreme Greed",
-  "ts": "2026-11-19T16:46:08+00:00",
-  "source_date": "2026-11-19T14:20:00.377Z",
-  "raw": 73.59,
-  "nifty": 25514.3,
-  "vix": -16.11,
-  "fii": -70670,
+  "ts": "2026-11-20T16:23:05+00:00",
+  "source_date": "2026-11-20T14:20:00.395Z",
+  "raw": 75.99,
+  "nifty": 25800.6,
+  "vix": -17.32,
+  "fii": -56687,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 72.99,
+      "value": 71.87,
       "zone": "Extreme Greed",
-      "date": "2026-11-18T00:00:00.000Z"
+      "date": "2026-11-19T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 82.38,
+      "value": 79.23,
       "zone": "Extreme Greed",
-      "date": "2026-11-12T00:00:00.000Z"
+      "date": "2026-11-13T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 50.25,
-      "zone": "Greed",
-      "date": "2026-10-19T00:00:00.000Z"
+      "value": 46.39,
+      "zone": "Fear",
+      "date": "2026-10-21T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 57.83,
+      "value": 56.91,
       "zone": "Greed",
-      "date": "2025-11-13T00:00:00.000Z"
+      "date": "2025-11-14T00:00:00.000Z"
     }
   ],
-  "summary": "The Market Mood Index stands at 71.9, indicating extreme greed and a slight drop from last week's peak."
+  "summary": "### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or Android 13 or later).\n- Sign in with the same account.\n\nIf you don't sign in by December 31, 2026, your Copilot history and content will be deleted. If you can't use the new app on this phone, sign in on your PC or Mac.\n\n[Install now](https://unifiedlink.svc.cloud.microsoft/app/copilot/?openAppStoreOnLoad=true&fromcode=cmm5pinh4s5&referrer=utm_source%3Dmai_copilot_migration%26utm_campaign%3Dmigration_chatblock&ocid=migration_chatblock&pt=80423&ct=migration_chatblock&qrversion=email&ccac=tofmigration)"
 }
