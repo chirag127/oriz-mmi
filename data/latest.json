@@ -2,7 +2,7 @@
   "source": "tickertape",
   "value": 66.51,
   "zone": "Greed",
-  "ts": "2026-11-23T19:28:24+00:00",
+  "ts": "2026-11-24T19:03:32+00:00",
   "source_date": "2026-11-23T14:20:00.483Z",
   "raw": 57.02,
   "nifty": 25349.65,
@@ -34,5 +34,5 @@
       "date": "2025-11-17T00:00:00.000Z"
     }
   ],
-  "summary": "The MMI at 66.5 (Greed) remains elevated but below yesterday's 75 and last week's 76, with Nifty at 25,349.65 and VIX down 17.7%."
+  "summary": "MMI drops to 66.5 greed from 75 yesterday as VIX slides 17.7%, easing off weekly peaks despite monthly strength."
 }
