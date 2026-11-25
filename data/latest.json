@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 66.51,
+  "value": 59.93,
   "zone": "Greed",
-  "ts": "2026-11-24T19:03:32+00:00",
-  "source_date": "2026-11-23T14:20:00.483Z",
-  "raw": 57.02,
-  "nifty": 25349.65,
-  "vix": -17.7,
-  "fii": -70454,
+  "ts": "2026-11-25T18:10:16+00:00",
+  "source_date": "2026-11-25T14:20:00.557Z",
+  "raw": 62.84,
+  "nifty": 25819.25,
+  "vix": -17.67,
+  "fii": -90949,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 74.79,
-      "zone": "Extreme Greed",
-      "date": "2026-11-20T00:00:00.000Z"
+      "value": 66.51,
+      "zone": "Greed",
+      "date": "2026-11-23T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 76.34,
+      "value": 76.59,
       "zone": "Extreme Greed",
-      "date": "2026-11-16T00:00:00.000Z"
+      "date": "2026-11-17T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 35.49,
+      "value": 30.62,
       "zone": "Fear",
-      "date": "2026-10-22T00:00:00.000Z"
+      "date": "2026-10-23T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 54.54,
+      "value": 55.64,
       "zone": "Greed",
-      "date": "2025-11-17T00:00:00.000Z"
+      "date": "2025-11-18T00:00:00.000Z"
     }
   ],
-  "summary": "MMI drops to 66.5 greed from 75 yesterday as VIX slides 17.7%, easing off weekly peaks despite monthly strength."
+  "summary": "MMI 59.9 (Greed) eases from 77 last week but stays above last month’s 31; Nifty 25,819.25, VIX down 17.67%."
 }
