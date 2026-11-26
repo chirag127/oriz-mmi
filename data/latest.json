@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 59.93,
+  "value": 64.77,
   "zone": "Greed",
-  "ts": "2026-11-25T18:10:16+00:00",
-  "source_date": "2026-11-25T14:20:00.557Z",
-  "raw": 62.84,
-  "nifty": 25819.25,
-  "vix": -17.67,
-  "fii": -90949,
+  "ts": "2026-11-26T18:01:02+00:00",
+  "source_date": "2026-11-26T14:20:00.563Z",
+  "raw": 66.69,
+  "nifty": 25884.5,
+  "vix": -16.84,
+  "fii": -85230,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 66.51,
+      "value": 59.93,
       "zone": "Greed",
-      "date": "2026-11-23T00:00:00.000Z"
+      "date": "2026-11-25T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 76.59,
+      "value": 72.99,
       "zone": "Extreme Greed",
-      "date": "2026-11-17T00:00:00.000Z"
+      "date": "2026-11-18T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 30.62,
+      "value": 34.41,
       "zone": "Fear",
-      "date": "2026-10-23T00:00:00.000Z"
+      "date": "2026-10-26T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 55.64,
+      "value": 54.59,
       "zone": "Greed",
-      "date": "2025-11-18T00:00:00.000Z"
+      "date": "2025-11-19T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 59.9 (Greed) eases from 77 last week but stays above last month’s 31; Nifty 25,819.25, VIX down 17.67%."
+  "summary": "Market Mood Index reads 64.8 (Greed), down from 73 last week, with VIX down 16.84% and Nifty at 25,884.5."
 }
