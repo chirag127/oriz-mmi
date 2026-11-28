@@ -1,38 +1,38 @@
 {
   "source": "tickertape",
-  "value": 72.09,
-  "zone": "Extreme Greed",
-  "ts": "2026-08-12T08:50:12+00:00",
-  "source_date": "2026-08-12T08:48:00.130Z",
-  "raw": 68.57,
-  "nifty": 24288.05,
-  "vix": -11.94,
-  "fii": -156131,
+  "value": 66.33,
+  "zone": "Greed",
+  "ts": "2026-11-27T17:38:31+00:00",
+  "source_date": "2026-11-27T14:20:01.381Z",
+  "raw": 65.96,
+  "nifty": 25607.2,
+  "vix": -16.55,
+  "fii": -88469,
   "comparisons": [
     {
       "label": "Yesterday",
-      "value": 78.52,
-      "zone": "Extreme Greed",
-      "date": "2026-08-11T00:00:00.000Z"
+      "value": 64.77,
+      "zone": "Greed",
+      "date": "2026-11-26T00:00:00.000Z"
     },
     {
       "label": "Last week",
-      "value": 74.42,
+      "value": 71.87,
       "zone": "Extreme Greed",
-      "date": "2026-08-05T00:00:00.000Z"
+      "date": "2026-11-19T00:00:00.000Z"
     },
     {
       "label": "Last month",
-      "value": 66.25,
-      "zone": "Greed",
-      "date": "2026-07-13T00:00:00.000Z"
+      "value": 40.9,
+      "zone": "Fear",
+      "date": "2026-10-27T00:00:00.000Z"
     },
     {
       "label": "Last year",
-      "value": 29.9,
-      "zone": "Extreme Fear",
-      "date": "2025-08-04T00:00:00.000Z"
+      "value": 52.34,
+      "zone": "Greed",
+      "date": "2025-11-20T00:00:00.000Z"
     }
   ],
-  "summary": "MMI 72.1 — Extreme Greed. down 6.4 vs yesterday. froth risk — a correction may be due, trim/hedge."
+  "summary": "#### \n\nIndia’s MMI at 66.3 signals Greed, up from yesterday but below last week’s 72, with easing volatility indicating improved sentiment versus recent sessions."
 }
