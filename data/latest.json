@@ -2,7 +2,7 @@
   "source": "tickertape",
   "value": 66.33,
   "zone": "Greed",
-  "ts": "2026-11-27T17:38:31+00:00",
+  "ts": "2026-11-28T16:24:05+00:00",
   "source_date": "2026-11-27T14:20:01.381Z",
   "raw": 65.96,
   "nifty": 25607.2,
@@ -34,5 +34,5 @@
       "date": "2025-11-20T00:00:00.000Z"
     }
   ],
-  "summary": "#### \n\nIndia’s MMI at 66.3 signals Greed, up from yesterday but below last week’s 72, with easing volatility indicating improved sentiment versus recent sessions."
+  "summary": "MMI reads 66.3 (Greed), up from last month’s 41 but below last week’s 72 as VIX drops 16.5%."
 }
